@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.cards{
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 1rem;
+  justify-content: flex-start;
+}
+
+.card{
+  width: 250px;
+  box-shadow: rgb(208, 208, 208) 0px 0px 5px;
+  border-radius: 5px;
+}
